@@ -16,7 +16,7 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: Because the nested function has access the the lexical environment of its parent function. 
+// Explanation: Because the nested function has access to the the lexical environment of its parent function. 
 
 
 /* Task 2: Counter */

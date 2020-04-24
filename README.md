@@ -26,13 +26,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach does not need a return statement, .map needs a return statement and returns an array while .forEach doest not. 
+
 2. Explain the difference between a callback and a higher order function.
+
+A HOF receives the callback function and the callback gets passed in to the HOF.
 
 3. What is closure?
 
+Closures give nested functions the ability to access variables/data within its parent's lexical environment.  
+
 4. Describe the four rules of the 'this' keyword.
 
+When using implicit binding, the 'this' keyword refers to what is on the left of the dot when the function is invoked. While call, bind, and apply allows you to define what the 'this' keyword refers to. 
+
 5. Why do we need super() in an extended class?
+ 
+Super() replaces .call and allows you to pass in attributes from a parent.
 
 ### Task 1 - Project Set up
 
